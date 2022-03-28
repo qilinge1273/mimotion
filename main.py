@@ -310,6 +310,7 @@ def push_wx(desp=""):
         params = {
             "text": '【小米运动步数修改】',
             "desp": desp
+            "channel": '9|18'
         }
 
         response = requests.get(server_url, params=params).text
